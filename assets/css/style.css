@@ -1,0 +1,113 @@
+header {
+    position: fixed;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    height: 81px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.headcontain {
+    position: relative;
+    height: 100px;
+    width: 960px;
+    margin: auto;
+    top: 0;
+    box-sizing: border-box;
+}
+#nameblock {
+float: left;
+color: white;
+background-color: #4aaaa5;
+text-align: center;
+
+}
+
+#contactcontainer {
+    float: right;
+    text-orientation: sideways-right;
+    width: auto;
+    color: #777777;
+    
+}
+
+#container {
+    margin: auto; 
+    width: 960px;
+    color: #4aaaa5;
+
+   
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    padding-left: 5px;
+}
+
+
+
+#about, #contact, #portfolio {
+    float: left;
+    padding: 10px;
+    margin-top: 30;
+    text-decoration: none;
+    color: #777777;
+}
+
+#about, #portfolio {
+    border-right: solid 1px;
+}
+
+#aboutme {
+    padding: 10px;
+}
+
+#profilepic {
+    float: left;;
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    padding-right: 5px;
+}
+
+#maincontent {
+float: left;
+background-color: #ffffff;
+border: 2px solid #dddddd;
+padding: 10px;
+
+}
+
+hr {
+    width: 90%;
+}
+
+footer {
+    position: fixed;
+    color: white;
+    background-color: #666666;
+    border-top: 10px solid;
+    border-color: #4aaaa5;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 25px;
+    font-size: 10px;
+}
+
+body {
+    background-image: url(../images/congruent_pentagon.png);
+    max-height: max-content;
+    overflow: scroll;
+}

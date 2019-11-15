@@ -1,0 +1,19 @@
+form {
+    background-color: white;
+    padding-left: 10px;
+    color: #777777;
+}
+
+#contactheader {
+    color: #4aaaa5;
+}
+
+#container {
+    overflow: auto;
+    background-color: #ffffff;
+border: 2px solid #dddddd;
+}
+
+#submit {
+    background-color: #4aaaa5;
+}
