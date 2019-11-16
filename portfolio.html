@@ -1,32 +1,48 @@
 <html>
     <head>
         <title>Portfolio</title>
+        <meta name="viewport" content="width-device-width initial-scale =1">
+        <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/portfolio.css">
     </head>
     <body>
-            <header>
-                    <div class="headcontain">
-                        <div id="nameblock"><h1>Moses Palacios</h1></div>
-                        <div id="contactcontainer">
-                            <a id="about" href="index.html">About</a>
-                            <a id="portfolio" href="portfolio.html">Portfolio</a>
-                            <a id="contact" href="contact.html">Contact</a>
-                        </div>
-                </div>
-                </header> 
-            <br><br><br><br><br><br>
+            <header id="masthead">
+                    <div class="container">
+                      <a href="#" id="logo">Moses Palacios</a>
+                      <nav>
+                        <a href="index.html">About</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
+                      </nav>
+                    </div>
+            </header>
 
-        <div id="container">
-            <div id="imagectn">
+        <div class="wrapper">
+        <div id="main-container" class="container">
+            <section class="main-section">
                 <h1>Portfolio</h1>
-                <hr>
-                <div class="photo" id="camping"><h4>Camping</h4> <img src="assets/images/Camp.jpeg"> </div> <!--make these absolute positioning-->
-                <div class="photo" id="lake"><h4>Lake</h4><img src="assets/images/Lake.jpeg"></div> <!--make these absolute positioning-->
-                <div class="photo" id="halfdome"><h4>Half Dome</h4><img  src="assets/images/mountain.jpeg"></div> <!--make these absolute positioning-->
-                <div class="photo" id="campfire"><h4>Camp Fire</h4><img  src="assets/images/Night fire.jpeg"></div> <!--make these absolute positioning-->
-                <div class="photo" id="valley"><h4>Yosemite Valley</h4><img  src="assets/images/Valley.jpeg"></div> <!--make these absolute positioning-->
-            </div>
+                <div class="photo">
+                    <img src="assets/images/Camp.jpeg"> 
+                    <h3>Camping</h3> 
+                </div> 
+                <div class="photo">
+                    <img src="assets/images/Lake.jpeg">
+                    <h3>Lake</h3>
+                </div> 
+                <div class="photo">
+                    <img  src="assets/images/mountain.jpeg">
+                    <h3>Half Dome</h3>
+                </div> 
+                <div class="photo">
+                    <img  src="assets/images/Valley.jpeg">
+                    <h3>Yosemite Valley</h3>
+                </div> 
+                <div class="photo">
+                    <img  src="assets/images/Night fire.jpeg">
+                    <h3>Camp Fire</h3>
+                </div> 
+            </section>
+        </div>
         </div>
         <footer>
                 Copyright &copy;
